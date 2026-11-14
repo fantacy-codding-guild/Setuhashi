@@ -3,16 +3,16 @@ import Shell from "@/app/components/Shell";
 
 export default function NotFound() {
   return (
-    <Shell
-      badge="Error 404 · ページが見つかりません"
-      title="404"
-      message="This bridge doesn't lead anywhere yet. The page you're looking for doesn't exist or has moved."
-    >
+    <Shell title="404" titleJa="ページが見つかりません">
+      <p>
+        Page not found. This bridge doesn’t lead anywhere: the page doesn’t
+        exist or has moved.
+      </p>
       <Link
         href="/"
-        className="inline-block rounded-full bg-vermilion px-6 py-3 font-semibold text-washi transition hover:bg-saffron hover:text-ink"
+        className="inline-block rounded-sm border border-white/40 px-5 py-2.5 transition-colors hover:bg-paper hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-paper"
       >
-        Back to the bridge →
+        Go to home page
       </Link>
     </Shell>
   );

@@ -2,13 +2,13 @@ import Shell from "@/app/components/Shell";
 
 export default function Home() {
   return (
-    <Shell
-      badge="India × Japan · Startup Bridge"
-      title="Coming Soon"
-      message="Setuhashi is building the bridge that helps Indian and Japanese startups find partners, talent and markets. Launching soon."
-    >
-      <p className="text-sm text-washi/60">
-        日本とインドをつなぐ橋 — Connecting Japan and India.
+    <Shell title="Coming soon" titleJa="近日公開">
+      <p>
+        SetuHashi is building a bridge between Indian and Japanese startups.
+        Write to us to hear first when we launch.
+      </p>
+      <p className="text-sm text-mute">
+        Setu (सेतु) in Sanskrit and hashi (橋) in Japanese both mean “bridge”.
       </p>
     </Shell>
   );
