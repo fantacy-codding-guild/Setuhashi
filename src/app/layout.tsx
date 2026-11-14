@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, Source_Serif_4 } from "next/font/google";
 import "./globals.css";
 
@@ -12,6 +12,10 @@ export const metadata: Metadata = {
   title: "SetuHashi | Coming soon",
   description:
     "SetuHashi is building a bridge between Indian and Japanese startups. Launching soon.",
+};
+
+export const viewport: Viewport = {
+  themeColor: "#0b1230",
 };
 
 export default function RootLayout({
