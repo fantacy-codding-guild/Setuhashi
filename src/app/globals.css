@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-saffron: #ff9933;
+  --color-vermilion: #bc002d;
+  --color-ink: #0b1026;
+  --color-washi: #fff8ec;
+  --color-india-green: #138808;
+}
+
+body {
+  background: var(--color-ink);
+  color: var(--color-washi);
+}
